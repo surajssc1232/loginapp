@@ -1,5 +1,3 @@
-I apologize for the misunderstanding. Here's a refined README file for your simple login application using the specified technologies:
-
 Simple Login Application
 
 This project implements a basic login application using Spring Boot, Spring MVC, PostgreSQL, Java, and Thymeleaf. Users can register and authenticate with a username and password.
