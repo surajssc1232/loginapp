@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Success</title>
+    <style>
+        .floating-text {
+            font-size: 24px;
+            position: absolute;
+            animation: floatText 5s linear infinite;
+        }
+
+        @keyframes floatText {
+            0% { left: 0; }
+            100% { left: calc(100% - 100px); }
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome, User!</h1>
+    <p th:class="floating-text">You have successfully logged in.</p>
+</body>
+</html>
